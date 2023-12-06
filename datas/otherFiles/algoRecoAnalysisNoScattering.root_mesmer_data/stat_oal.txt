@@ -1,0 +1,65 @@
+ RNG status at this point:
+         104     5876136    12403814     3426988    16314569    12186362     3114823     1162691    13329997    15214245    12386201    10370619    15375000     1355234     5113369    10674695      368934     9778329    14536775    14623357     4400586       74791    12201507    15541349     5169025     9093803      417185     5425641    13230609    15908578    14133130     2875581    15805637     7137523      148858     1391885       32217     6327549    16108499    12252845     2959737    12719180    15799922      510543    14872966    14489009    11723111     7926822    12342069    10662541    10468422    16159805    13362586    11899095     7265560    10527025      578849     7163897    10208532     7791681     2380919    15367730    13491707     6117963    15178185    13961855     1337740    11172358     2759128     1585154     7814388     3673957    12019473    11090867     2585712     9712500    16411322    16761391     9719493    13234625    13159645     1450648     9305289     4208754    12572654     7278954    14326584      762516     6085610     2800799     4573376      588025     2507728    14560520    15004119    12171307    11149692           0           0           1           0         397           9          27
+  
+  Process PID:        1521  running on laptop              
+  file written last time ~                    2 s ago
+  CPU time to generate last                   99 events   2.0058798789978027      s (   20261.412919169725      μs/ev)
+  CPU time to generate                        99 events   2.0058798789978027      s (   20261.412919169725      μs/ev)
+  
+ Inputs & parameters for this run: 
+ Incoming muon charge  -1
+ nominal muon beam energy =    152.9559 GeV
+ muon beam energy  spread =      3.5000 %
+ sqrt(s)   =      0.4092 GeV
+ minimum electron LAB energy =      0.2000 GeV
+ maximum electron LAB angle  =    100.0000 mrad
+ minimum muon LAB angle      =      0.0000 mrad
+ maximum muon LAB angle      =    100.0000 mrad
+ applying acopl. cut and value = 0       3.5000 mrad
+ ord    = alpha 
+ model  = matched   
+ nphot mode =   -1
+ seeds   =       42*********
+ alpha running  =    1
+ (Jegerlehner alpha running)
+ eps    = .000020000
+  
+ Weights normalization    1331.3905143003944       (μb)
+ fmax for unweightening    32976.087856905266     
+ true sdifmax    6080.2565715965338     
+  
+~ Generating          100 weighted events ~
+  
+ ::::::>>>>>> weighted events <<<<<<::::::
+ 0  photons:        859.19387597478 +-       125.25763442804     ( 58.3533 %)
+ 1  photons:        613.20469093281 +-       106.61911426476     ( 41.6467 %)
+ total:            1472.39856690760 +-       147.97912779728 μb
+  
+ n.           99 of                  100
+ cut points   0.00000000 %
+ ::::::>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<::::::
+  
+ ::::::>>>>>> unweighted events <<<<<<::::::
+ hit or miss efficiency   5.050505 %
+ unweighted events generated           5.
+  
+ total (μb):            0.00000000000 +-         0.00000000000 +
+        !!!!            0.00000000000 +-         0.00000000000 (bias over fmax) +
+        !!!!           -0.00000000000 +-         0.00000000000 (bias negative)
+ total + biases:          0.00000000000 +-         0.00000000000
+  
+ N. points with w > fmax (bias):            0
+ bias/hit and bias/(hit+missed):   0.0000000 % and   0.0000000 %
+ N. points with w < 0:           0
+ biases for w < 0:      0.00000 % and    0.00000 %
+  
+ Used fmax:   32976.0879 =  1.1000 * sdmax
+ True upper/lower limits (sdmax sdmin):
+   6080.2565715965338        2.5508773992706346E-010
+ ::::::>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<::::::
+  
+ reweighted cross sections
+ W1     1459.4607066126655      +-   127.14472546335087     
+ W2     1472.3710011353000      +-   128.11294724302320     
+ LO     1264.1640267443061      +-   183.84380477556599     
+ NLO    1472.3985669075955      +-   128.11494641768149     

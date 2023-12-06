@@ -1,0 +1,15 @@
+extmubeam yes
+seed 42
+nev 100
+Ebeam 152.955888
+bspr 3.5
+path algoRecoAnalysisNoScattering.root_mesmer_data
+Qmu -1
+Eemin 0.2
+themax 100
+thmumin 0
+thmumax 100
+ord alpha
+mode weighted
+nwarmup 10000
+run

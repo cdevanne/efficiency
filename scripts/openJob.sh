@@ -1,0 +1,1 @@
+sunl /home/clement/muone/share/MUonE/common/jobs/exampleProductionJob.yaml
